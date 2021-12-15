@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+padding:0px;
+margin:0px;
+}
+.ana{
+display:flex;
+flex-direction:column;	
+background-color:#960;
+height:100vh;
+}
+
+.kapsayici{
+display:flex;
+justify-content:space-around;
+background-color:#073f68;
+height:80px;
+margin-top:20px;
+
+}
+
+.logo{
+	margin-top:-20px;
+}
+
+.menu{
+display:flex;
+align-items:center;
+gap:10px;
+color:white;
+}
+
+.link{
+border: 1px solid #fff;
+padding: 5px 7px;
+}
+
+
+.menu .link{
+	
+}
+
+.footer{
+	display:flex;
+	justify-content:center;
+	background-color:#0FF;
+	height:80px;
+	align-items:center; 
+	justify-self:end;
+	gap:10px;
+}
+.footer .link{
+	
+}
+
+
+
+
+
