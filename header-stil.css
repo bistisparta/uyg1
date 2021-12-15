@@ -42,6 +42,7 @@ transition:0.3s;
 background-color:#fff;
 color:#073f68;
 cursor:pointer;
+padding:5px 20px;
 }
 
 .menu .link{
@@ -49,20 +50,20 @@ cursor:pointer;
 }
 
 .footer{
-	display:flex;
-	justify-content:center;
-	background-color:#0FF;
-	height:80px;
-	align-items:center; 
-	justify-self:end;
-	gap:10px;
+display:flex;
+justify-content:center;
+background-color:#0FF;
+height:80px;
+align-items:center; 
+justify-self:end;
+gap:10px;
 }
 
 .hero{
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
-	align-items:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
 background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(galeri.jpg);
 background-position:center;
 background-size:cover;
@@ -87,5 +88,36 @@ margin-bottom:17px;
 padding-bottom:17px;
 }
 
+.dersler{
+display:flex;
+justify-content:space-around;
+margin-top:30px;
+background-color:#666;
+gap:10px;
+}
+
+.ders1{
+width:250px;
+height:400px;
+background-color:#06F;
+}
+
+.ders2{
+width:250px;
+height:400px;
+background-color:#303;
+}
+
+.ders3{
+width:250px;
+height:400px;
+background-color:#3F9;
+}
+
+.ders4{
+width:250px;
+height:400px;
+background-color:#9F9;
+}
 
 
